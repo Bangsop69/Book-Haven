@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <title>Sopiyan</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo buku.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      Book Haven✨
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="transaksi.html">Transaksi</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbar-dropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Others
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="contact.html">Contact</a>
+              </li>
+              <li><a class="dropdown-item" href="menu.html">Menu</a></li>
+              <li><a class="dropdown-item" href="profil.html">Profil</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="login.html">Login</a>
+              </li>
+            </ul>
+          </li>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <!--ini adalah komentar-->
+    <body>
+      <!-- about -->
+      <div class="container-fluid bg-dark text-light" 
+      style="height: auto;" width="100%">
+
+      <body>
+        <title style="text-decoration-line: none;">Form Pinjam Buku</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #000000;
+            }
+            .container {
+                max-width: 500px;
+                margin: 50px auto;
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h2 {
+                text-align: center;
+                color: #333;
+            }
+            form label {
+                font-weight: bold;
+                display: block;
+                margin-bottom: 5px;
+                color: #555;
+            }
+            form input, form select, form button {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #000000;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+            form button {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+            form button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Form Pinjam Buku</h2>
+            <form action="#" method="POST">
+                <label for="nama_mahasiswa">Nama Mahasiswa</label>
+                <input type="text" id="nama_mahasiswa" name="nama_mahasiswa" placeholder="Masukan nama mahasiswa" required>
+                
+                <label for="kelas">Kelas</label>
+                <input type="text" id="kelas" name="kelas" placeholder="Masukkan Kelas" required>
+                
+                <label for="judul_buku">Judul Buku</label>
+                <select id="judul_buku" name="judul_buku" required>
+                    <option value="" disabled selected>Pilih buku</option>
+                    <option value="Buku A">Buku Fiksi</option>
+                    <option value="Buku B">Buku Filsafat Cinta</option>
+                    <option value="Buku C">Buku Berani Tidak Disukai</option>
+                    <option value="Buku B">Buku Motivasi Religi</option>
+                    <option value="Buku C">Buku Crypto Investing Principles</option>
+                </select>
+                
+                <label for="tanggal_pinjam">Tanggal Pinjam</label>
+                <input type="date" id="tanggal_pinjam" name="tanggal_pinjam" required>
+                
+                <label for="tanggal_kembali">Tanggal Kembali</label>
+                <input type="date" id="tanggal_kembali" name="tanggal_kembali" required>
+                
+                <button type="submit">Simpan</button>
+            </form>
+        </div>
+    </body>
+    </html>
+      
+      <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
